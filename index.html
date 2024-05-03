@@ -19,7 +19,19 @@
     </style>
 </head>
 <body>
-    <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5WUGPdWtKtyYrkSsSPOAMF%2FWorkspace%3Fpage-id%3D2450%253A4009%26type%3Ddesign%26node-id%3D2513-11656%26viewport%3D-82%252C-763%252C0.17%26t%3DRqvJHrS74VOD7nzP-1%26scaling%3Dscale-down%26starting-point-node-id%3D2513%253A11656%26mode%3Ddesign%26hide-ui=1" allowfullscreen>
+    <iframe onclick="openFullscreen();" onload="openFullscreen();" onmouseover="openFullscreen();" oncontextmenu="openFullscreen()" src="https://www.figma.com/proto/5WUGPdWtKtyYrkSsSPOAMF/Workspace?page-id=2450%3A4009&type=design&node-id=2591-15266&viewport=-1656%2C-3666%2C0.51&t=Y5lqnPEqIORSBA5W-1&scaling=scale-down&starting-point-node-id=2591%3A15266&mode=design%26hide-ui=1" allowfullscreen>
     </iframe>
 </body>
+<script>
+var elem = document.getElementById("appin");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+</script>
 </html>
